@@ -1,0 +1,3 @@
+[submodule "website-personal/themes/ananke"]
+	path = website-personal/themes/ananke
+	url = https://github.com/gohugo-ananke/ananke
