@@ -6,6 +6,7 @@ Personal blog and portfolio site built with [Hugo](https://gohugo.io/) and the [
 
 ```bash
 cd website-personal
+hugo new content content/posts/post-name.md     # Create new post
 hugo server          # Start dev server with live reload
 hugo server --disableFastRender  # Dev server with full rebuilds
 ```

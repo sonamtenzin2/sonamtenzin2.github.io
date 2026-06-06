@@ -72,7 +72,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there, I am Sonam \U0001F44B"
-    Content: Welcome to my blog
+    Content: Welcome to my blog. You can check out the posts below.
 
   # socialIcons:
   #   - name: x

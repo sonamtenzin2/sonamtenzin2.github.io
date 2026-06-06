@@ -78,7 +78,7 @@ type Person struct {
 }
 
 p := Person{"Alice", 30}
-p := Person{Name: "Bob", Age: 25}
+p = Person{Name: "Bob", Age: 25}
 p.Name = "Charlie"
 ```
 
@@ -150,7 +150,7 @@ func sum(a, b int) (result int) {
 }
 
 // variadic
-func sum(nums ...int) int { }
+func sum(nums ...int) int { return 0 }
 ```
 
 ## Methods
@@ -165,7 +165,7 @@ func (r Rectangle) Area() float64 { return r.W * r.H }
 func (r *Rectangle) Scale(f float64) { r.W *= f; r.H *= f }
 ```
 
-**Rule:** If any method uses a pointer receiver, all should — be consistent.
+**Rule:** Be consistent — if any method on a type uses a pointer receiver, all should.
 
 ## Interfaces
 
@@ -274,7 +274,7 @@ func unexportedFunc() {}
 "fmt"              // Printf, Sprintf, Scanf
 "os"               // File, Open, Read, Write
 "io"               // Reader, Writer interface
-"io/ioutil"        // ReadFile, WriteFile (deprecated, use os)
+"io/ioutil"        // ReadFile, WriteFile (deprecated since Go 1.16; use os instead)
 "strings"          // Contains, Split, Join, Trim
 "strconv"          // Atoi, Itoa, ParseInt
 "time"             // Now, Sleep, Duration
