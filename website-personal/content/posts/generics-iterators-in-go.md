@@ -1,5 +1,8 @@
-+++ date = '2026-06-12T07:00:30+05:30' draft = false title = 'Generics and Itertors in GO' +++
-# Mastering Generics and Iterators in Go
++++
+date = '2026-06-12T07:00:30+05:30'
+draft = false
+title = 'Generics and Itertors in GO'
++++
 
 Go is famous for its simplicity and fast performance. 
 For years, it lacked two features common in other languages: Generics and Iterators. 
